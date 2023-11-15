@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)"  href="phone.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#AboutMe">About Me </a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="main">
+        <h1 class="headings">
+          I AM <br />
+          ISAAC CHAPERMANN
+        </h1>
+        <button class="btn">Hire Me</button>
+      </div>
+    </section>
+
+    <section id="AboutMe">
+      <h1 class="headings">ABOUT ME</h1>
+      <div id="pic">
+        <img
+          src="Imagem do WhatsApp de 2023-11-13 à(s) 18.29.42_3655da9e.jpg"
+          alt=""
+        />
+        <div id="intro">
+          <h2>ISAAC CHAPERMANN</h2>
+          <p>
+            Name - Isaac Chapermann Neto
+           <p>Hometown - Aracaju/Brazil</p>
+            <p>Achievements - SQL Certication and Best Nba2K player in my state</p>
+            <p>Education - Studied Computer Science for 6 months in Aracaju and now i'm studying Web Development at Tamwood International College</p>
+            <p>Hobbies - Play soccer, play Basketball, watch series, drink a lot of beer and listen to rap/hip hop music</p>
+            <p>Foods - I love pizza, cheeseburguer, hot wings, yakisoba and sushi</p>
+            <p>Places - I went to Orlando 5 times, Miami, New York, Lisboa, Porto, Óbidos, Aveiro, Bahamas, Maceió 7 times, Salvador 4 times, Rio de Janeiro 4 times, São Paulo 5 times, Gramado 2 times, Recife 2 times, Fortaleza, Brasília, Balneário Camboriú and Itajaí</p>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Gallery">
+      <h1 class="headings">GALLERY</h1>
+      <div class="gallery">
+        <img src="IMG-20231113-WA0001.jpg" alt="" />
+        <img src="IMG-20231113-WA0002.jpg" alt="" />
+        <img src="IMG-20231113-WA0003.jpg" alt="" />
+        <img src="IMG-20231113-WA0004.jpg" alt="" />
+        <img src="IMG-20231113-WA0005.jpg" alt="" />
+        <img src="IMG-20231113-WA0006.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="Contact">
+      <h1 class="headings">CONTACT ME</h1>
+      <form action="" class="form">
+        <input
+          type="text"
+          name="name"
+          class="input"
+          placeholder="Enter Your Name"
+        />
+        <input
+          type="email"
+          name="email"
+          class="input"
+          placeholder="Enter Your Email"
+        />
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Message"
+        ></textarea>
+        <input type="submit" value="SEND" id="send" />
+      </form>
+    </section>
+  </body>
+</html>
